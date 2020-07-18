@@ -244,7 +244,7 @@ class EmbeddableVideo extends MediaTypeBase implements EmbeddableVideoTypeInterf
       return $local_image;
     }
 
-    // TGX-123 #comment This replaces the wrong config settings request, it was
+    // TGX-123 This replaces the wrong config settings request, it was
     // trying to get icon_base from media_entity_embeddable_video.settings
     $media_entity__icon_base = \Drupal::config('media_entity.settings')->get('icon_base');
 

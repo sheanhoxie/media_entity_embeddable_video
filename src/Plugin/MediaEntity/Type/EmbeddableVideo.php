@@ -244,7 +244,7 @@ class EmbeddableVideo extends MediaTypeBase implements EmbeddableVideoTypeInterf
       return $local_image;
     }
 
-    return $this->config->get('icon_base') . '/embeddable_video.png';
+    return $this->config->get('icon_base') . '/video.png';
   }
 
   /**
